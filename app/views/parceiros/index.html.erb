@@ -1,0 +1,27 @@
+<h1>Listing parceiros</h1>
+
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Logo</th>
+    <th>Link</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @parceiros.each do |parceiro| %>
+  <tr>
+    <td><%= parceiro.nome %></td>
+    <td><%= parceiro.logo %></td>
+    <td><%= parceiro.link %></td>
+    <td><%= link_to 'Show', parceiro %></td>
+    <td><%= link_to 'Edit', edit_parceiro_path(parceiro) %></td>
+    <td><%= link_to 'Destroy', parceiro, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Parceiro', new_parceiro_path %>

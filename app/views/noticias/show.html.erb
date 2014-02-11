@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row clearfix">
+    <div class="col-md-8 column">
+      <small><%= @noticia.data_publicacao %></small>
+      <h2><%= @noticia.titulo %></h2>
+      <hr/>
+      <em class="muted">
+        <p>
+          <%= @noticia.resumo %>
+        </p>
+      </em>
+    </div>
+    <div class="col-md-4 column">
+      <% if @noticia.foto.exists? %>
+        <%= image_tag(@noticia.foto.url, height: "250px", width: "250px") %>
+      <% end %>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row clearfix">
+    <div class="col-md-12">
+      <p class="well">
+        <% @noticia.conteudo.split("\n").each do |t| %>
+            <%= t %><br>
+        <% end %>
+      </p>
+    </div>
+  </div>
+</div>
+
+<hr/>
+
+<div>
+  <ul class="pager pagination-lg">
+
+    <% proxima_noticia = @noticia.proxima_noticia %>
+    <% anterior_noticia = @noticia.anterior_noticia %>
+
+    <li><%= link_to("Última Notícia", @noticia.ultima_noticia) if proxima_noticia %></li>
+    <li><%= link_to("< Próxima Notícia", proxima_noticia) if proxima_noticia %></li>
+    <li><%= link_to("Notícia Anterior >", anterior_noticia) if anterior_noticia %></li>
+    <li><%= link_to("Primeira Notícia", @noticia.primeira_noticia)  if anterior_noticia %></li>
+
+  </ul>
+</div>
+
+<%= link_to helper_app_btn_title_edit, edit_noticia_path(@noticia), class: helper_app_btn_icon_edit %> |
+<%= link_to helper_app_btn_title_back, noticias_path, class: helper_app_btn_icon_back %>

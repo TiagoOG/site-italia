@@ -1,0 +1,38 @@
+<h1>Listagem de Notícias</h1>
+
+<%= link_to helper_app_btn_title_new, new_noticia_path, class: helper_app_btn_icon_new %>
+
+<br/>
+<table class="table table-hover table-condensed">
+  <thead>
+      <tr>
+        <th>Titulo</th>
+        <th>Resumo</th>
+        <th>Data publicacao</th>
+        <th>Ativo</th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <% @noticias.each do |noticia| %>
+          <tr>
+            <td><%= noticia.titulo %></td>
+            <td><%= noticia.resumo %></td>
+            <td><%= noticia.data_publicacao %></td>
+            <td><%= noticia.ativo %></td>
+            <td><%= link_to '', noticia, class: helper_app_btn_icon_show_row, title: helper_app_btn_title_show %></td>
+            <td><%= link_to '', edit_noticia_path(noticia),
+                            class: helper_app_btn_icon_edit_row, title: helper_app_btn_title_edit %></td>
+            <td><%= link_to '', noticia, method: :delete, data: {confirm: 'Are you sure?'},
+                            class: helper_app_btn_icon_destroy, title: helper_app_btn_title_destroy %></td>
+          </tr>
+      <% end %>
+  </tbody>
+
+</table>
+
+
+
+

@@ -1,0 +1,22 @@
+<%= simple_form_for(@noticia, :html => { :multipart => true }) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :titulo %>
+    <%= f.input :resumo, hint: "Máximo de 200 caracteres" %>
+    <%= f.input :data_publicacao %>
+    <%= f.input :ativo %>
+    <div class="control-group">
+      <%= f.label :foto %>
+      <div class="controls">
+        <%= f.file_field :foto %>
+      </div>
+    </div>
+    <%= f.input :conteudo, input_html: {:style => 'width: 1142px'} %>
+  </div>
+  <br/>
+  <div class="form-actions">
+    <%= f.button :submit, class: "btn btn-info" %>
+  </div>
+  <br>
+<% end %>

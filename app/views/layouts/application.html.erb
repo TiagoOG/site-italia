@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Italia</title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <div style="float:left; z-index: 10; position: absolute; top: 50px; left: 50px;"><img alt="Logo" height="150px" width="250px" src="/assets/logo.png"></div>
+      <img alt="Header" height="250px" width="1140px" src="/assets/header.png">
+    </div>
+  </div>
+
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <nav class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav nav-justified">
+            <li><a class="navbar-brand" href="/">HOME</a></li>
+            <li><a class="navbar-brand" href="/premios/descricao">O PRÊMIO</a></li>
+            <li><a class="navbar-brand" href="/noticias/lista">NOTÍCIAS</a></li>
+            <li><a class="navbar-brand" href="/inscricao/detalhes">PARCEIROS</a></li>
+            <li><a class="navbar-brand" href="/eventos/listagem">EDITAL/REGULAMENTO</a></li>
+            <li><a class="navbar-brand" href="/edital/regulamento">FOTOS</a></li>
+            <li><a class="navbar-brand" href="#">CONTATOS</a></li>
+            <!--<li><%= link_to "Entrar", new_usuario_session_path, :class => 'navbar-brand'  %></li>-->
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row clearfix">
+      <div class="col-md-10 column">
+        <ul class="breadcrumb">
+          <li>
+            <p>Administração >> </p>
+          </li>
+          <li><%= link_to "Premios", premios_path %> <span class="divider">/</span></li>
+          <li><%= link_to "Noticias", noticias_path %> <span class="divider">/</span></li>
+          <li><%= link_to "Eventos", eventos_path %> <span class="divider">/</span></li>
+          <li><%= link_to "Galerias", galerias_path %> <span class="divider">/</span></li>
+        </ul>
+      </div>
+      <div class="col-md-2 column">
+        <%= link_to image_tag("/assets/logout_black.png", height: "48px", width: "48px", title: "Sair", alt: "Logout"), destroy_usuario_session_path, method: :delete, :class => 'navbar-link'  %>
+      </div>
+    </div>
+  </div>
+
+  <div class="row clearfix">
+    <div class="col-md-12 column">
+      <%= yield %>
+    </div>
+  </div>
+</div>
+
+<hr/>
+<div class="container">
+  <div class="row clearfix">
+    <div class="col-md-6 column">
+      <h3>
+        Contato
+      </h3>
+      <address><strong>SECTES, CA</strong><br/>
+        Av. Prefeito Américo Gianett, S/N<br/>
+        Belo Horizonte/MG<br/>
+        <abbr title="Phone">P:</abbr> (123) 456-7890
+      </address>
+    </div>
+    <div class="col-md-6 column">
+      <h3>
+        Apoio
+      </h3><img alt="Governo de Minas Gerais" height="100" width="200"
+                src="http://3.bp.blogspot.com/-stmkMW8KpYc/UUC29EHLSMI/AAAAAAAAQRk/cGwcl7LJYF4/s1600/1.jpg"/>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

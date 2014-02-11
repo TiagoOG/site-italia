@@ -1,0 +1,20 @@
+<% cont = 0 %>
+<% noticias_lista.each do |noticia| %>
+
+    <% row_open = cont == 0 %>
+    <% row_end = cont == 2 %>
+
+    <% if row_open %>
+        <div class="row">
+    <% end %>
+
+    <%= helper_noticia_show_thumbnail(noticia) %>
+
+    <% if row_end %>
+        </div>
+        <% cont = 0 %>
+    <% else %>
+        <% cont += 1 %>
+    <% end %>
+
+<% end %>
