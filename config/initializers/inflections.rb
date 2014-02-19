@@ -17,4 +17,5 @@
 ActiveSupport::Inflector.inflections do |inflect|
   inflect.plural 'noticia', 'noticias'
   inflect.plural 'galeria', 'galerias'
+  inflect.plural 'edital', 'editais'
 end

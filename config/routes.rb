@@ -1,8 +1,8 @@
 Italia::Application.routes.draw do
+
+  devise_for :users
+
   resources :parceiros
-
-
-  devise_for :usuario
 
   get "inscricao/detalhes"
 

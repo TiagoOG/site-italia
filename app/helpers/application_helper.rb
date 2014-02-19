@@ -70,4 +70,8 @@ module ApplicationHelper
     " Voltar"
   end
 
+  def helper_app_menu_admin
+   render :partial => 'layouts/menu_administracao'
+  end
+
 end

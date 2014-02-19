@@ -1,17 +1,28 @@
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.carousel').carousel({
+            interval: 3000
+        });
+
+        $('.carousel').carousel('cycle');
+    });
+</script>
+
 <div class="container">
   <div class="row clearfix">
     <div class="col-md-12 column">
-      <div class="carousel slide" id="carousel-850188">
+      <div class="carousel slide" id="carousel">
         <ol class="carousel-indicators">
-          <li class="active" data-slide-to="0" data-target="#carousel-850188">
+          <li class="active" data-slide-to="0" data-target="#carousel">
           </li>
-          <li data-slide-to="1" data-target="#carousel-850188">
+          <li data-slide-to="1" data-target="#carousel">
           </li>
-          <li data-slide-to="2" data-target="#carousel-850188">
+          <li data-slide-to="2" data-target="#carousel">
           </li>
         </ol>
         <div class="carousel-inner">
           <div class="item active">
+            <img alt="" src="<%  %>" />
             <img alt="" src="http://lorempixel.com/1600/500/sports/1" />
             <div class="carousel-caption">
               <h4>
@@ -44,7 +55,7 @@
               </p>
             </div>
           </div>
-        </div> <a class="left carousel-control" href="#carousel-850188" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-850188" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div> <a class="left carousel-control" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
       </div>
     </div>
   </div>
