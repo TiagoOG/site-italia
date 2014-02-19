@@ -20,7 +20,9 @@
 
 <div class="container">
   <!-- INSERTAR MENU ADMINISTRACAO -->
-  <% helper_app_menu_admin %>
+  <% if user_signed_in? %>
+    <%= helper_app_menu_admin %>
+  <% end %>
 
 
   <div class="row clearfix">

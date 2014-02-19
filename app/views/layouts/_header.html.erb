@@ -19,7 +19,7 @@
           <li><a class="navbar-brand" href=/galerias/fotos>FOTOS</a></li>
           <li><a class="navbar-brand" href="#">CONTATOS</a></li>
           <% if user_signed_in? %>
-              <li><%= link_to image_tag('login_black.png', height: '32', width: '32'), new_user_session_path, :class => 'navbar-brand'  %></li>
+              <li><%= link_to image_tag('login_white.png', height: '32', width: '32'), destroy_user_session_path, method: :delete, :class => 'navbar-brand' %></li>
           <% else %>
               <li><%= link_to image_tag('login_black.png', height: '32', width: '32'), new_user_session_path, :class => 'navbar-brand'  %></li>
           <% end %>

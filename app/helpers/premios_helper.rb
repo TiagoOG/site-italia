@@ -12,8 +12,4 @@ module PremiosHelper
     render "premios/carousel", :premios_lista => premios_lista
   end
 
-  def helper_premio_list_thumbnail(premios_list)
-    render "premios/list_thumbnail", :premios_list => premios_list
-  end
-
 end

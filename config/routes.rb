@@ -14,23 +14,19 @@ Italia::Application.routes.draw do
     end
   end
 
-
   resources :galerias do
     collection do
       get "fotos"
     end
   end
 
-
   resources :regulamentos
-
 
   resources :premios do
     collection do
       get "descricao"
     end
   end
-
 
   resources :noticias do
     collection do
@@ -41,15 +37,12 @@ Italia::Application.routes.draw do
 
   #get "noticias/lista" => "noticias#lista"
 
-
   resources :conteudos
-
 
   get "premio/descricao"
 
   get "home/index"
   root :to => "home#index"
-
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
