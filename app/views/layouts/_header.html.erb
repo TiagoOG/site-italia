@@ -17,7 +17,7 @@
           <li><a class="navbar-brand" href="/noticias/lista">NOTÍCIAS</a></li>
           <li><a class="navbar-brand" href="#">PARCEIROS</a></li>
           <li><a class="navbar-brand" href=/galerias/fotos>FOTOS</a></li>
-          <li><a class="navbar-brand" href="#">CONTATOS</a></li>
+          <li><a class="navbar-brand" href="/contato/new">CONTATOS</a></li>
           <% if user_signed_in? %>
               <li><%= link_to image_tag('login_white.png', height: '32', width: '32'), destroy_user_session_path, method: :delete, :class => 'navbar-brand' %></li>
           <% else %>

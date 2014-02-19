@@ -64,5 +64,18 @@ module Italia
 
     config.assets.paths << "#{Rails.root}/vendor/assets/fonts"
 
+    config.action_mailer.smtp_settings = {
+        :address              => "smtp.gmail.com",
+        :port                 => 587,
+        :domain               => "yourdomain.dev",
+        :user_name            => "from@yourdomain.dev",
+        :password             => "Super-Secure-Password",
+        :authentication       => :plain,
+        :enable_starttls_auto => true
+    }
+
+    config.action_mailer.default_url_options = {
+        :host => "yourdomain.dev"
+    }
   end
 end

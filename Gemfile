@@ -20,8 +20,11 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+# Forms, mail {
+gem 'simple_form'
+# }
+
 gem 'jquery-rails'
-gem "simple_form"
 gem "paperclip"
 gem "hermitage"
 gem "friendly_id", "~> 4.0.10"

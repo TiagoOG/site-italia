@@ -2,6 +2,9 @@ Italia::Application.routes.draw do
 
   devise_for :users
 
+  match 'contato' => 'contato#new', :as => 'contato', :via => :get
+  match 'contato' => 'contato#create', :as => 'contato', :via => :post
+
   resources :parceiros
 
   get "inscricao/detalhes"
@@ -19,6 +22,8 @@ Italia::Application.routes.draw do
       get "fotos"
     end
   end
+
+  resources "contato", only: [:new, :create]
 
   resources :regulamentos
 
