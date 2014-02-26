@@ -1,31 +1,19 @@
-<div class="row clearfix">
-  <div class="col-md-12 column">
-    <nav class="navbar navbar-default navbar-static-top" role="navigation">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav nav-justified">
-          <li><a class="navbar-brand" href="/">HOME</a></li>
-          <li><a class="navbar-brand" href="/premios/descricao">PRÊMIOS</a></li>
-          <li><a class="navbar-brand" href="/noticias/lista">NOTÍCIAS</a></li>
-          <li><a class="navbar-brand" href="#">PARCEIROS</a></li>
-          <li><a class="navbar-brand" href=/galerias/fotos>FOTOS</a></li>
-          <li><a class="navbar-brand" href="/contato/new">CONTATOS</a></li>
-          <% if user_signed_in? %>
-              <li><%= link_to image_tag('login_white.png', height: '32', width: '32'), destroy_user_session_path, method: :delete, :class => 'navbar-brand' %></li>
-          <% else %>
-              <li><%= link_to image_tag('login_black.png', height: '32', width: '32'), new_user_session_path, :class => 'navbar-brand'  %></li>
-          <% end %>
-        </ul>
-      </div>
-
-    </nav>
-  </div>
+<div class="container header">
+    <div class="row clearfix">
+          <div class="navbar-collapse" id="navbar1">
+            <ul class="nav nav-pills">
+              <li><a class="navbar-brand" href="/">HOME</a></li>
+              <li><a class="navbar-brand" href="/premios/descricao">PRÊMIOS</a></li>
+              <li><a class="navbar-brand" href="/noticias/lista">NOTÍCIAS</a></li>
+              <li><a class="navbar-brand" href="/parceiros/lista">PARCEIROS</a></li>
+              <li><a class="navbar-brand" href="/galerias/fotos">FOTOS</a></li>
+              <li><a class="navbar-brand" href="/contato/new">CONTATOS</a></li>
+              <% if user_signed_in? %>
+                  <li><%= link_to image_tag('login_white.png', height: '32', width: '32'), destroy_user_session_path, method: :delete, :class => 'navbar-brand' %></li>
+              <% else %>
+                  <li><%= link_to image_tag('login_black.png', height: '32', width: '32'), new_user_session_path, :class => 'navbar-brand'  %></li>
+              <% end %>
+            </ul>
+          </div>
+    </div>
 </div>

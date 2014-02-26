@@ -5,7 +5,11 @@ Italia::Application.routes.draw do
   match 'contato' => 'contato#new', :as => 'contato', :via => :get
   match 'contato' => 'contato#create', :as => 'contato', :via => :post
 
-  resources :parceiros
+  resources :parceiros do
+    collection do
+      get "lista"
+    end
+  end
 
   get "inscricao/detalhes"
 

@@ -1,28 +1,31 @@
-<h2>Formulário de contato</h2>
+<h2>Contato</h2>
 <br>
 <%= form_for @message, :class => 'row', :url => contato_path do |form| %>
-    <div class="col-12 col-sm-12 col-lg-12">
-      <div class="form-group">
-        <%= form.label :name, 'Nome', :class => 'form-control' %>
-        <%= form.text_field :name, :class => 'form-control' %>
+    <div class="control-group">
+      <div class="controls">
+        <%= form.label :name, 'Nome' %><br>
+        <%= form.text_field :name %>
       </div>
 
-      <div class="form-group">
-        <%= form.label :email, 'Email', :class => 'form-control' %>
-        <%= form.text_field :email, :class => 'form-control' %>
-      </div>
-      <div class="form-group">
-        <%= form.label :subject, 'Assunto', :class => 'form-control' %>
-        <%= form.text_field :subject, :class => 'form-control' %>
+      <div class="controls">
+        <%= form.label :email, 'Email' %><br>
+        <%= form.text_field :email %>
       </div>
 
-      <div class="form-group">
-        <%= form.label :body, 'Mensagem', :class => 'form-control' %>
-        <%= form.text_area :body, :class => 'form-control' %>
+      <div class="controls">
+        <%= form.label :subject, 'Assunto' %><br>
+        <%= form.text_field :subject %>
+      </div>
+
+      <div class="controls">
+        <%= form.label :body, 'Mensagem' %><br>
+        <%= form.text_area :body %>
       </div>
     </div>
+    <br>
 
-    <fieldset class="actions">
-      <%= form.submit "Enviar", :class => 'btn btn-primary pull-right' %>
-    </fieldset>
+    <%= button_tag(type: "submit", class: "btn btn-default") do %>
+        Enviar
+    <% end %>
+
 <% end %>

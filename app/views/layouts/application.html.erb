@@ -11,19 +11,20 @@
 <%= render 'layouts/header' %>
 
 <div class="panel panel-default">
+
   <div class="panel-body">
     <% if user_signed_in? %>
         <div>Logado como <%= current_user.email %></div>
     <% end %>
   </div>
+
 </div>
 
 <div class="container">
-  <!-- INSERTAR MENU ADMINISTRACAO -->
+
   <% if user_signed_in? %>
     <%= helper_app_menu_admin %>
   <% end %>
-
 
   <div class="row clearfix">
     <div class="col-md-12 column">

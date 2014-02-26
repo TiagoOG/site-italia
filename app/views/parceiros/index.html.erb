@@ -1,6 +1,9 @@
-<h1>Listing parceiros</h1>
+<h1>Listagem de Parceiros</h1>
 
-<table>
+<%= link_to helper_app_btn_title_new, new_parceiro_path, class: helper_app_btn_icon_new %>
+
+<table class="table table-hover table-condensed">
+  <thead>
   <tr>
     <th>Nome</th>
     <th>Logo</th>
@@ -9,19 +12,20 @@
     <th></th>
     <th></th>
   </tr>
+  </thead>
 
 <% @parceiros.each do |parceiro| %>
   <tr>
     <td><%= parceiro.nome %></td>
     <td><%= parceiro.logo %></td>
     <td><%= parceiro.link %></td>
-    <td><%= link_to 'Show', parceiro %></td>
-    <td><%= link_to 'Edit', edit_parceiro_path(parceiro) %></td>
-    <td><%= link_to 'Destroy', parceiro, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to '', parceiro, class: helper_app_btn_icon_show_row, title: helper_app_btn_title_show %></td>
+    <td><%= link_to '', edit_parceiro_path(parceiro),
+                    class: helper_app_btn_icon_edit_row, title: helper_app_btn_title_edit %></td>
+    <td><%= link_to '', parceiro, method: :delete, data: {confirm: 'Tem certeza?'},
+                    class: helper_app_btn_icon_destroy, title: helper_app_btn_title_destroy %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
-
-<%= link_to 'New Parceiro', new_parceiro_path %>

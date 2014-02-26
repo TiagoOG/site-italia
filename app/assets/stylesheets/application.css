@@ -61,3 +61,14 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+.header {
+    background-image: url("header.png");
+    height: 300px;
+    margin:0 auto;
+}
+#navbar1 {
+    background-color: #2a6496;
+    top: 220px;
+    position: relative;
+    margin:
+}

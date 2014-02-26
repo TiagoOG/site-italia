@@ -42,6 +42,7 @@ a:focus {
 
 a:active, a:hover {
     outline: 0
+    color: #ffffff;
 }
 
 h1 {

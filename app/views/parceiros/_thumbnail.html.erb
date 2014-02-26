@@ -1,0 +1,9 @@
+<div class="col-md-4">
+  <div class="thumbnail">
+
+    <% if parceiro_thumbnail.logo.exists? %>
+        <%= link_to image_tag(parceiro_thumbnail.logo.url, height: "#{altura}px", width: "#{largura}px"), parceiro_thumbnail.link, :target => '_blank' %>
+    <% end %>
+
+  </div>
+</div>

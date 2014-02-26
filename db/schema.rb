@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140212135906) do
+ActiveRecord::Schema.define(:version => 20140224153411) do
 
   create_table "eventos", :force => true do |t|
     t.string   "nome"
@@ -49,11 +49,12 @@ ActiveRecord::Schema.define(:version => 20140212135906) do
   end
 
   create_table "parceiros", :force => true do |t|
-    t.string   "nome"
-    t.string   "logo"
-    t.string   "link"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string   "nome",              :limit => 70
+    t.text     "link"
+    t.string   "logo_file_name"
+    t.string   "logo_content_type"
+    t.integer  "logo_file_size"
+    t.datetime "logo_updated_at"
   end
 
   create_table "premios", :force => true do |t|
@@ -84,6 +85,7 @@ ActiveRecord::Schema.define(:version => 20140212135906) do
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
+    t.string   "role"
     t.string   "encrypted_password",     :default => "", :null => false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
@@ -95,7 +97,6 @@ ActiveRecord::Schema.define(:version => 20140212135906) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at",                             :null => false
     t.datetime "updated_at",                             :null => false
-    t.string   "role"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true

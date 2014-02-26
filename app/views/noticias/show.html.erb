@@ -27,6 +27,10 @@
       </p>
     </div>
   </div>
+<div class="col-md-3">
+    compartilhar noticia
+  <%= helper_social_share_button_tag(@noticia.titulo) %>
+</div>
 </div>
 
 <hr/>
@@ -45,5 +49,7 @@
   </ul>
 </div>
 
+<% if user_signed_in? %>
 <%= link_to helper_app_btn_title_edit, edit_noticia_path(@noticia), class: helper_app_btn_icon_edit %> |
 <%= link_to helper_app_btn_title_back, noticias_path, class: helper_app_btn_icon_back %>
+<% end %>

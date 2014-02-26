@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e14ae3b5-1865-41f1-94c6-5c1ee74be643" name="Default" comment="comentario&#10;&#10;adicionar colunas tabela Evento&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contato/new.html.erb" />
-      <change type="DELETED" beforePath="C:\Sites\site-italia\app\mailers\user_mailer.rb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/parceiros/_list_thumbnail.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/parceiros/_thumbnail.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/parceiros/lista.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/social-share-button.coffee" />
       <change type="DELETED" beforePath="C:\Sites\site-italia\app\models\usuario.rb" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\site-italia\public\system\premios\fotos\000\000\001\medium\top_premioano2013_(1).jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\site-italia\public\system\premios\fotos\000\000\001\original\top_premioano2013_(1).jpg" afterPath="" />
@@ -13,14 +15,31 @@
       <change type="DELETED" beforePath="C:\Sites\site-italia\public\system\premios\fotos\000\000\002\thumbnail\Lighthouse.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\site-italia\test\fixtures\usuarios.yml" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\site-italia\test\unit\usuario_test.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140211140440_create_parceiros.rb" afterPath="$PROJECT_DIR$/db/migrate/20140211140440_create_parceiros.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140212160325_devise_create_users.rb" afterPath="$PROJECT_DIR$/db/migrate/20140212160325_devise_create_users.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/templates/erb/scaffold/_form.html.erb" afterPath="$PROJECT_DIR$/lib/templates/erb/scaffold/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/premios/_carousel.html.erb" afterPath="$PROJECT_DIR$/app/views/premios/_carousel.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/parceiros/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/parceiros/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.min.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/contato_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/contato_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galerias/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/galerias/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/galerias/fotos.html.erb" afterPath="$PROJECT_DIR$/app/views/galerias/fotos.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/parceiros/index.html.erb" afterPath="$PROJECT_DIR$/app/views/parceiros/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/italia.iml" afterPath="$PROJECT_DIR$/.idea/italia.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contato/new.html.erb" afterPath="$PROJECT_DIR$/app/views/contato/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/parceiros/new.html.erb" afterPath="$PROJECT_DIR$/app/views/parceiros/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/noticias_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/noticias_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/parceiro.rb" afterPath="$PROJECT_DIR$/app/models/parceiro.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/parceiros_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/parceiros_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/simple_form.en.yml" afterPath="$PROJECT_DIR$/config/locales/simple_form.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/simple_form.rb" afterPath="$PROJECT_DIR$/config/initializers/simple_form.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb" afterPath="$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/noticias/show.html.erb" afterPath="$PROJECT_DIR$/app/views/noticias/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="italia.iws" />
@@ -34,8 +53,9 @@
   <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/italia@Development__novodados.coverage" NAME="Development: novodados Coverage Results" MODIFIED="1391711471286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../novodados" MODULE_NAME="novodados" />
-    <SUITE FILE_PATH="coverage/italia@Development__italia.coverage" NAME="Development: italia Coverage Results" MODIFIED="1392814234289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="italia" />
-    <SUITE FILE_PATH="coverage/italia@db_migrate__italia.coverage" NAME="db:migrate: italia Coverage Results" MODIFIED="1392213570272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="italia" />
+    <SUITE FILE_PATH="coverage/italia@db_migrate.coverage" NAME="db:migrate Coverage Results" MODIFIED="1393255493329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="italia" />
+    <SUITE FILE_PATH="coverage/italia@Development__italia.coverage" NAME="Development: italia Coverage Results" MODIFIED="1393420101727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="italia" />
+    <SUITE FILE_PATH="coverage/italia@db_migrate__italia.coverage" NAME="db:migrate: italia Coverage Results" MODIFIED="1393256236822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="italia" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="C:\Users\m14140572\Desktop" />
@@ -49,10 +69,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/contato/new.html.erb">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="84" selection-start="686" selection-end="686" vertical-scroll-proportion="0.60444444" vertical-offset="0" max-vertical-offset="561">
+            <state line="35" column="63" selection-start="621" selection-end="621" vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="782">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="16" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.4005891" vertical-offset="0" max-vertical-offset="679">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="66" selection-start="457" selection-end="457" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="0" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.0" vertical-offset="574" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -66,7 +113,6 @@
     </FindUsagesManager>
   </component>
   <component name="GeneratorOptions">
-    <option name="VCS_SHOW_CONFIRMATION" value="true" />
     <option name="ENVIRONMENT" value="development" />
   </component>
   <component name="Git.Settings">
@@ -75,23 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/views/premios/_jumbotron.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/eventos/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/evento.rb" />
-        <option value="$PROJECT_DIR$/app/views/premios/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/premios/_premio.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/eventos/_evento_box.html.erb" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/views/eventos/show.html.erb" />
-        <option value="$PROJECT_DIR$/../novodados/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/models/usuario.rb" />
-        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/premio.rb" />
-        <option value="C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/hermitage-0.0.6/app/assets/javascripts/hermitage.js.coffee.erb" />
-        <option value="$PROJECT_DIR$/config/initializers/inflections.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140212121755_create_editais.rb" />
         <option value="$PROJECT_DIR$/app/controllers/edital_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/edital/regulamento.html.erb" />
@@ -101,27 +130,48 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/config/locales/pt-BR.yml" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
-        <option value="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_menu_administracao.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/premios_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/premios/_carousel.html.erb" />
         <option value="$PROJECT_DIR$/app/models/contactMailer.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/contatos_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/contato.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/models/message.rb" />
         <option value="$PROJECT_DIR$/app/mailers/notificacoes_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/notificacoes_mailer/new_message.text.erb" />
         <option value="$PROJECT_DIR$/app/controllers/contato_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/parceiros/index.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140211140440_create_parceiros.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140224153411_add_attachment_logo_to_parceiros.rb" />
+        <option value="$PROJECT_DIR$/app/views/parceiros/_form.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140212160325_devise_create_users.rb" />
+        <option value="$PROJECT_DIR$/app/views/parceiros/new.html.erb" />
+        <option value="$PROJECT_DIR$/lib/social_share_button/helper.rb" />
+        <option value="$PROJECT_DIR$/app/models/noticia.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/socialsharebutton_helper.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/social_share_button.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/noticias_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/noticias/show.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/parceiro.rb" />
+        <option value="$PROJECT_DIR$/app/views/parceiros/_list_thumbnail.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/parceiros/lista.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/parceiros_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/parceiros/_thumbnail.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/galerias/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/galerias/_galeria_listagem.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/galerias/fotos.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.css" />
+        <option value="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/app/views/contato/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/premios/_carousel.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
       </list>
     </option>
   </component>
@@ -164,27 +214,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="italia" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="italia" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="italia" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,7 +268,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="noticias" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,8 +300,91 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="italia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-italia" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="italia" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="italia" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="italia" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="italia" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsTopLevelFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="italia" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="italia" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsTopLevelFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Stylesheets" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.AssetsPredefinedGroupFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="italia" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="italia" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ApplicationFolderNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -288,7 +400,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/devise.patch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../redmine" />
     <property name="FullScreen" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
@@ -296,11 +408,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Sites\site-italia\app\views\layouts" />
-      <recent name="C:\Sites\site-italia\app\views\premios" />
-      <recent name="C:\Sites\italia\app\views\premios" />
+      <recent name="C:\Sites\site-italia\app\assets\stylesheets" />
+      <recent name="C:\Sites\site-italia\app\assets\javascripts" />
+      <recent name="C:\Sites\site-italia\app\helpers" />
+      <recent name="C:\Sites\site-italia\app\views\parceiros" />
+      <recent name="C:\Sites\site-italia\db\migrate" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Sites\site-italia\lib" />
+      <recent name="C:\Sites\site-italia\app\assets\stylesheets" />
+      <recent name="C:\Sites\site-italia\app\assets\javascripts" />
+      <recent name="C:\Sites\site-italia\app\assets\images" />
       <recent name="C:\Sites\site-italia\app\views\edital" />
     </key>
   </component>
@@ -337,6 +455,28 @@
         <env name="RAILS_ENV" value="development" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="italia" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
@@ -516,18 +656,20 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Rails.Development: italia" />
       <item index="1" class="java.lang.String" itemvalue="Rails.Production: italia" />
       <item index="2" class="java.lang.String" itemvalue="Rake.spec: italia" />
       <item index="3" class="java.lang.String" itemvalue="Rake.test: italia" />
       <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: italia" />
       <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate: italia" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.db:migrate" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate: italia" />
-        <item index="1" class="java.lang.String" itemvalue="IRB console.Rails console: italia" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate: italia" />
+        <item index="2" class="java.lang.String" itemvalue="IRB console.Rails console: italia" />
       </list>
     </recent_temporary>
   </component>
@@ -575,23 +717,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988358" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17008986" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31835687" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32345015" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32345015" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -620,331 +762,292 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/galerias_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="48" selection-start="1884" selection-end="1884" vertical-scroll-proportion="1.6046025" vertical-offset="542" max-vertical-offset="1581" />
+    <entry file="file://$PROJECT_DIR$/app/assets/images/sprites/social-share-button.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/parceiro.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="44" selection-start="78" selection-end="78" vertical-scroll-proportion="0.106694564" vertical-offset="0" max-vertical-offset="478" />
+    <entry file="file://$PROJECT_DIR$/app/assets/images/sprites/social-share-button@2x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/inflections.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="697" selection-end="697" vertical-scroll-proportion="0.6757322" vertical-offset="0" max-vertical-offset="478" />
+        <state line="1" column="39" selection-start="92" selection-end="92" vertical-scroll-proportion="0.035714287" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140131171909_add_attachment_foto_to_premios.rb">
+    <entry file="file://$PROJECT_DIR$/lib/templates/erb/scaffold/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140131160314_create_premios.rb">
+    <entry file="file://$PROJECT_DIR$/lib/tasks/.gitkeep">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140204144500_add_evento_id_to_galeria.rb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/social_share_button.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478" />
+        <state line="2" column="41" selection-start="81" selection-end="81" vertical-scroll-proportion="0.071428575" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140204143902_create_eventos.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/social-share-button.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140204140834_create_galerias.rb">
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/social-share-button-0.1.5/lib/social_share_button/helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478" />
+        <state line="3" column="4" selection-start="61" selection-end="986" vertical-scroll-proportion="0.10714286" vertical-offset="0" max-vertical-offset="510" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140211140440_create_parceiros.rb">
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/social-share-button-0.1.5/lib/social-share-button.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478" />
+        <state line="6" column="7" selection-start="202" selection-end="202" vertical-scroll-proportion="0.21428572" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/simple_form-2.1.1/lib/simple_form/form_builder.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/parceiros_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="329" column="8" selection-start="12825" selection-end="12825" vertical-scroll-proportion="0.33333334" vertical-offset="5365" max-vertical-offset="8296" />
+        <state line="15" column="48" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/premios/descricao.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="50" selection-start="236" selection-end="236" vertical-scroll-proportion="0.22801788" vertical-offset="0" max-vertical-offset="671" />
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/devise-3.2.2/app/views/devise/registrations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="83" selection-start="239" selection-end="239" vertical-scroll-proportion="0.2761021" vertical-offset="0" max-vertical-offset="431" />
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/devise-3.2.2/app/views/devise/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="49" selection-start="239" selection-end="239" vertical-scroll-proportion="0.23665893" vertical-offset="0" max-vertical-offset="431" />
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/devise-3.2.2/app/controllers/devise_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="31" selection-start="1949" selection-end="1949" vertical-scroll-proportion="0.4463895" vertical-offset="918" max-vertical-offset="3094" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="68" selection-start="4592" selection-end="4592" vertical-scroll-proportion="0.17688023" vertical-offset="3052" max-vertical-offset="3791" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/noticias/_thumbnail.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="76" selection-start="541" selection-end="541" vertical-scroll-proportion="0.6264501" vertical-offset="70" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/noticias_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="331" selection-end="331" vertical-scroll-proportion="0.32008368" vertical-offset="0" max-vertical-offset="478">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/parceiros/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="27" selection-end="47" vertical-scroll-proportion="0.07522124" vertical-offset="0" max-vertical-offset="452">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="716" column="51" selection-start="21140" selection-end="21140" vertical-scroll-proportion="28.175926" vertical-offset="0" max-vertical-offset="34204">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="663" selection-end="663" vertical-scroll-proportion="0.5334728" vertical-offset="0" max-vertical-offset="478">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4363" column="35" selection-start="80961" selection-end="80961" vertical-scroll-proportion="-8.96" vertical-offset="73947" max-vertical-offset="111452">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="56" selection-start="571" selection-end="571" vertical-scroll-proportion="0.4623431" vertical-offset="0" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="69" selection-start="321" selection-end="321" vertical-scroll-proportion="0.3318584" vertical-offset="20" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="555" selection-end="555" vertical-scroll-proportion="0.5334728" vertical-offset="0" max-vertical-offset="478">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/eventos_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1581">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/devise-3.2.2/app/controllers/devise/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9916318" vertical-offset="474" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_menu_administracao.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="99" selection-start="617" selection-end="617" vertical-scroll-proportion="0.41371682" vertical-offset="0" max-vertical-offset="452">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/galerias/_galeria_listagem.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/galerias/fotos.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/galerias_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="105" selection-end="105" vertical-scroll-proportion="0.106694564" vertical-offset="0" max-vertical-offset="478">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/galerias/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="53" selection-start="925" selection-end="925" vertical-scroll-proportion="0.86504424" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="23" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="106" selection-end="106" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/eventos/_list_eventos_box.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="185" selection-end="202" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/eventos/_evento_box.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="63" selection-start="735" selection-end="735" vertical-scroll-proportion="0.7494199" vertical-offset="0" max-vertical-offset="431">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/eventos_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="97" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+        <state line="17" column="77" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/premios_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
+        <state line="6" column="50" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/premios/_carousel.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/noticias_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="107" selection-start="836" selection-end="836" vertical-scroll-proportion="0.4259681" vertical-offset="255" max-vertical-offset="1122">
-          <folding />
-        </state>
+        <state line="10" column="33" selection-start="276" selection-end="276" vertical-scroll-proportion="-0.24476987" vertical-offset="287" max-vertical-offset="1581" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/boot.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/noticia.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
+        <state line="16" column="0" selection-start="489" selection-end="564" vertical-scroll-proportion="0.5690377" vertical-offset="0" max-vertical-offset="799" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/models/parceiro.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="15" selection-start="502" selection-end="502" vertical-scroll-proportion="0.42857143" vertical-offset="170" max-vertical-offset="901">
-          <folding />
-        </state>
+        <state line="8" column="86" selection-start="229" selection-end="229" vertical-scroll-proportion="0.28451884" vertical-offset="0" max-vertical-offset="478" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/parceiros/lista.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="56" selection-start="101" selection-end="101" vertical-scroll-proportion="0.1880531" vertical-offset="0" max-vertical-offset="452" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/parceiros/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="48" selection-start="174" selection-end="174" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="442" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/parceiros/_list_thumbnail.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="80" selection-start="233" selection-end="233" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/parceiros_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="72" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/parceiros/_thumbnail.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="54" selection-start="263" selection-end="263" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/noticias/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="75" selection-start="281" selection-end="281" vertical-scroll-proportion="0.26327434" vertical-offset="0" max-vertical-offset="476" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/noticias/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="36" selection-start="805" selection-end="805" vertical-scroll-proportion="1.1659292" vertical-offset="0" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/hermitage-0.0.6/lib/hermitage/rails_render_core.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="91" selection-end="91" vertical-scroll-proportion="-1.4895397" vertical-offset="763" max-vertical-offset="1241" />
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/hermitage-0.0.6/lib/hermitage/view_helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="8" selection-start="702" selection-end="702" vertical-scroll-proportion="0.5536105" vertical-offset="87" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/social-share-button-0.1.5/app/assets/stylesheets/social-share-button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7980769" vertical-offset="332" max-vertical-offset="1207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="665" selection-end="665" vertical-scroll-proportion="0.5604396" vertical-offset="0" max-vertical-offset="455" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galerias/fotos.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="49" selection-start="50" selection-end="50" vertical-scroll-proportion="0.11333334" vertical-offset="0" max-vertical-offset="450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galerias/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="452" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galerias/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="57" selection-start="462" selection-end="462" vertical-scroll-proportion="0.35777777" vertical-offset="60" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/galerias/_galeria_listagem.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="45" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="452" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/galeria.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="36" selection-start="355" selection-end="355" vertical-scroll-proportion="0.39285713" vertical-offset="0" max-vertical-offset="476" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/evento.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+        <state line="3" column="75" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/home_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="39" selection-start="92" selection-end="92" vertical-scroll-proportion="0.035714287" vertical-offset="0" max-vertical-offset="476">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="50" selection-start="3343" selection-end="3343" vertical-scroll-proportion="2.6785715" vertical-offset="0" max-vertical-offset="1479">
+        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="-1.9518828" vertical-offset="933" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/notificacoes_mailer.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/eventos_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="248" selection-end="248" vertical-scroll-proportion="0.32142857" vertical-offset="0" max-vertical-offset="476">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/notificacoes_mailer/new_message.text.erb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/galerias_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="100" selection-end="100" vertical-scroll-proportion="0.22666667" vertical-offset="0" max-vertical-offset="450">
+        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.07112971" vertical-offset="0" max-vertical-offset="478">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/contato_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="41" selection-start="502" selection-end="502" vertical-scroll-proportion="-0.9285714" vertical-offset="918" max-vertical-offset="1938">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="478">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="29" selection-start="409" selection-end="409" vertical-scroll-proportion="0.7177778" vertical-offset="0" max-vertical-offset="782">
+        <state line="47" column="62" selection-start="605" selection-end="605" vertical-scroll-proportion="0.38963965" vertical-offset="626" max-vertical-offset="121091">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/contato_controller.rb">
+    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="128" selection-start="1220" selection-end="1220" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/message.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="64" selection-start="457" selection-end="457" vertical-scroll-proportion="0.71428573" vertical-offset="0" max-vertical-offset="476">
+        <state line="50" column="31" selection-start="791" selection-end="791" vertical-scroll-proportion="0.6409091" vertical-offset="568" max-vertical-offset="111469">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/contato/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="84" selection-start="686" selection-end="686" vertical-scroll-proportion="0.60444444" vertical-offset="0" max-vertical-offset="561">
+        <state line="10" column="57" selection-start="326" selection-end="326" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/noticias/lista.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="52" selection-end="52" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/noticias/_list_thumbnail.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="67" selection-start="179" selection-end="179" vertical-scroll-proportion="0.3549884" vertical-offset="0" max-vertical-offset="431">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/noticias_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/noticias/_thumbnail.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="77" selection-start="459" selection-end="459" vertical-scroll-proportion="-7.1923075" vertical-offset="51" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/premios/_carousel.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="87" selection-start="628" selection-end="628" vertical-scroll-proportion="0.46469247" vertical-offset="153" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_view/helpers/csrf_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="10" selection-start="644" selection-end="644" vertical-scroll-proportion="0.33263597" vertical-offset="147" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="63" selection-start="621" selection-end="621" vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="66" selection-start="457" selection-end="457" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.0" vertical-offset="574" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="16" selection-start="1070" selection-end="1070" vertical-scroll-proportion="0.4005891" vertical-offset="0" max-vertical-offset="679">
           <folding />
         </state>
       </provider>
